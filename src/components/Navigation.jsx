@@ -1,48 +1,20 @@
-function Navigation({ currentPage, handlePageChange }) {
+import { Link } from 'react-router-dom';
+
+function Navigation() {
     return (
-<nav className="navbar navbar-expand-lg navbar-light bg-info-bg-gradient">
-    <a className="navbar-brand" href="home">Laura Alston</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item active">
-          <a
-              href="#about"
-              onClick={() => handlePageChange('About')}
-              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-              About
-          </a>
-        </li>
-        <li className="nav-item">
-        <a
-              href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
-              Portfolio
-          </a>
-        </li>
-        <li className="nav-item">
-        <a
-              href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-              Resume
-          </a>
-        </li>
-        <li className="nav-item">
-        <a
-              href="#contact"
-              onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-              Contact
-          </a>
-        </li>
-      </ul>
-    </div>
-</nav>
-    );
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <a><Link to="/"><h1 style={{color: 'black'}}>Laura Alston</h1></Link></a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav d-flex flex-end" style={{ display: 'flex', gap: '10px' }}>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/resume">Resume</Link></li>
+        </ul>
+        </div>
+      </nav>
+   );
 }
   
 export default Navigation;

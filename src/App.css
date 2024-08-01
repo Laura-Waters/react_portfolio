@@ -15,7 +15,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 70%;
 }
 
 h1,
@@ -50,19 +50,21 @@ header {
 h1 {
     display: inline-block;
     font-size: 4rem;
-    color: var(--text-color);
+    color: var(--dark-text);
     margin-left: 10px;
 }
 
 header nav {
     padding-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
     margin-right: 20px;
     float: right;
     font-size: 2rem;
-}
-
-header nav ul {
-    list-style-type: none;
+    color: var(--dark-text);
 }
 
 header nav ul li {
@@ -71,7 +73,7 @@ header nav ul li {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--dark-text);
     text-decoration: none;
 }
 /*-----------------------------------------------------------------------------------------------------------*/
@@ -236,7 +238,7 @@ img {
 /* Footer ------------------------------------------------------------------------------------------------------------------------*/
 footer {
     padding: 2rem;
-    background-color: var(--secondary);
+    background-color: lightblue;
     color: (var(--text-color));
     display: flex;
     flex-wrap: nowrap;

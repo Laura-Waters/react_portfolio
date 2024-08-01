@@ -2,7 +2,7 @@ import Navigation from './Navigation'
 
 function Header() {
     return (
-        <div style={{ backgroundColor: 'red' }}>
+        <div className='mx4' style={{ backgroundColor: 'lightBlue' }}>
             <Navigation />
         </div>
     );
