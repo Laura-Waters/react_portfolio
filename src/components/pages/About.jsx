@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div>
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <div className='d-flex align-items-center'>
           <img src="../images/aboutme.jpg" alt="Photo of Laura"/>
           <p>
