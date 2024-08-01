@@ -54,8 +54,8 @@ h1 {
     margin-left: 10px;
 }
 
-header nav {
-    padding-top: 15px;
+nav {
+    color: var(--dark-text);
 }
 
 nav ul {
@@ -74,7 +74,7 @@ header nav ul li {
 
 a {
     color: var(--dark-text);
-    text-decoration: none;
+    text-decoration: none !important;
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 
@@ -109,7 +109,6 @@ a {
 /*-----------------------------------------------------------------------------------------------------------------*/
 
 
-/* About Me Section ------------------------------------------------------------------------------------------------*/
 h2 {
     color: var(--dark-text);
     font-size: 3rem;
@@ -124,22 +123,6 @@ p {
     margin-right: 40px;
 }
 
-.about-me {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.about-me-content {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 80%;
-}
 
 img {
     max-height: 250px;
@@ -148,33 +131,6 @@ img {
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
 
-/*–––––––––––Work–––––––––––––––––––––––*/ 
-.work {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.vl {
-    height: 300px;
-    border-left: 5px solid var(--secondary);
-    border-radius: 3px;
-}
-
-.all-projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 78%;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-}
 
 .card {
     border-style: solid;
@@ -189,13 +145,6 @@ img {
    border-width: 8px;
 }
 
-#first-card {
-    flex: 1 0 400px;
-    height: 300px;
-    display: block;
-    width: 80%;
-    background-image: url(./assets/Horiseon.jpg);
-}
 
 .background-image {
     display:flex;
@@ -210,31 +159,6 @@ img {
 }
 
 
-#horiseon {
-    background-image: url(./assets/Horiseon.jpg);
-}
-
-.text-box {
-    padding: 1rem;
-    background-color: var(--secondary);
-    color: (var(--text-color));
-    width: 50%;
-}
-
-.text-box ul li {
-    color: var(--text-color);
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-left: 10px;
-    line-height: 1.5;
-}
-
-#title {
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-
 /* Footer ------------------------------------------------------------------------------------------------------------------------*/
 footer {
     padding: 2rem;
@@ -242,24 +166,13 @@ footer {
     color: (var(--text-color));
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     height: 80px;
     margin-top: 40px;
     position: relative;
-}
-
-footer nav {
-    margin-right: 20px;
     font-size: 2rem;
-    padding-top: 10px;
-    float: right;
 }
 
-footer h2 {
-    color: var(--text-color);
-    padding-top: 6px;
-    font-size: 24px;
-}
 
 footer nav ul {
     list-style-type: none;
@@ -268,7 +181,6 @@ footer nav ul {
 
 footer nav ul li {
     display: inline-block;
-    margin-left: 25px;
 }
 
 @media screen and (max-width: 768px) {
