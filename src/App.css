@@ -144,9 +144,9 @@ p {
 }
 
 
-img {
+#headshot {
     max-height: 250px;
-    outline: 4px solid var(--secondary); 
+    outline: 4px solid var(--secondary);
     margin: 20px;
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
