@@ -1,0 +1,278 @@
+/* Global Webpage Settings ------------------------------------------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+ --primary: #a4e1f2;
+ --secondary: #114a8b;
+ --background: #e1f5fa;
+ --text-color: #ffffff;
+ --dark-text: #000000; 
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: (var(--dark-text));
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+body {
+    background-color: var(--background);
+    font-size: 1.75rem;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+main {
+    position: relative;
+}
+
+/* Header/Nav ------------------------------------------------------------------------------------*/
+header {
+    padding: 2rem;
+    background-color: var(--secondary);
+    color: (var(--text-color));
+}
+
+h1 {
+    display: inline-block;
+    font-size: 4rem;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Hero --------------------------------------------------------------------------------------------------------*/
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/heroimage.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle-block {
+    background-color: #114a8b;
+    height: 20%;
+    width: 48%;
+    margin-top: 23%;
+    float: right;
+    position: relative;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.subtitle {
+    color: #ffffff;
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    left: 2%;
+    padding-top: 12px;
+} 
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/* About Me Section ------------------------------------------------------------------------------------------------*/
+h2 {
+    color: var(--dark-text);
+    font-size: 3rem;
+    padding-left: 20px;
+    text-align: right;
+}
+
+p {
+    color: black;
+    font-size: 1.6rem;
+    margin: 1rem;
+    margin-right: 40px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about-me-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 80%;
+}
+
+img {
+    max-height: 250px;
+    outline: 4px solid var(--secondary); 
+    margin: 28px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*–––––––––––Work–––––––––––––––––––––––*/ 
+.work {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vl {
+    height: 300px;
+    border-left: 5px solid var(--secondary);
+    border-radius: 3px;
+}
+
+.all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    height: 150px;
+    flex: 1 0 300px;
+    cursor: pointer;
+}
+
+.card:hover {
+   border-width: 8px;
+}
+
+#first-card {
+    flex: 1 0 400px;
+    height: 300px;
+    display: block;
+    width: 80%;
+    background-image: url(./assets/Horiseon.jpg);
+}
+
+.background-image {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    min-height: 100%; 
+    outline: 4px solid var(--secondary); 
+    background-image: url(./assets/bostonskyline.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+#horiseon {
+    background-image: url(./assets/Horiseon.jpg);
+}
+
+.text-box {
+    padding: 1rem;
+    background-color: var(--secondary);
+    color: (var(--text-color));
+    width: 50%;
+}
+
+.text-box ul li {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* Footer ------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    padding: 2rem;
+    background-color: var(--secondary);
+    color: (var(--text-color));
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+
+footer nav {
+    margin-right: 20px;
+    font-size: 2rem;
+    padding-top: 10px;
+    float: right;
+}
+
+footer h2 {
+    color: var(--text-color);
+    padding-top: 6px;
+    font-size: 24px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
+

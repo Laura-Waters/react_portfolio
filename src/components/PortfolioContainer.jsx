@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Navigation from './Navigation';
+import Header from './Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
