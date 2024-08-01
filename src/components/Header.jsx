@@ -2,7 +2,7 @@ import Navigation from './Navigation'
 
 function Header() {
     return (
-        <div className='mx4' style={{ backgroundColor: 'lightBlue' }}>
+        <div className='mx4' style={{ backgroundColor: 'var(--secondary)' }}>
             <Navigation />
             <section className="hero"><span role="img" aria-label="A blurred view of city lights."></span>
                 <div className="subtitle-block">
