@@ -16,42 +16,42 @@ export default function Portfolio() {
 
         <div>
         <Project
-          title="Weather Dashboard"
+          title="AppTrack"
           imageSrc="../images/gradient.jpg"
-          projectLink="https://laura-waters.github.io/weather_dashboard/"
-          githubLink="https://github.com/Laura-Waters/weather_dashboard"
+          projectLink="https://job-app-tracker-boic.onrender.com/"
+          githubLink="https://github.com/Laura-Waters/AppTrack"
         />
         </div>
         <div>
         <Project
-          title="Weather Dashboard"
+          title="Project Task Board"
           imageSrc="../images/gradient.jpg"
-          projectLink="https://laura-waters.github.io/weather_dashboard/"
-          githubLink="https://github.com/Laura-Waters/weather_dashboard"
+          projectLink="https://laura-waters.github.io/project_task_board/"
+          githubLink="https://github.com/Laura-Waters/project_task_board"
         />
         </div>
         <div>
         <Project
-          title="Weather Dashboard"
+          title="Employee Tracker"
           imageSrc="../images/gradient.jpg"
-          projectLink="https://laura-waters.github.io/weather_dashboard/"
-          githubLink="https://github.com/Laura-Waters/weather_dashboard"
+          projectLink="https://laura-waters.github.io/employee_tracker/"
+          githubLink="https://github.com/Laura-Waters/employee_tracker"
         />
         </div>
         <div>
         <Project
-          title="Weather Dashboard"
+          title="Text Editor PWA"
           imageSrc="../images/gradient.jpg"
-          projectLink="https://laura-waters.github.io/weather_dashboard/"
-          githubLink="https://github.com/Laura-Waters/weather_dashboard"
+          projectLink="https://text-editor-pwa-ssb6.onrender.com/"
+          githubLink="https://github.com/Laura-Waters/text_editor_PWA"
         />
         </div>
         <div>
         <Project
-          title="Weather Dashboard"
+          title="Note Taker"
           imageSrc="../images/gradient.jpg"
-          projectLink="https://laura-waters.github.io/weather_dashboard/"
-          githubLink="https://github.com/Laura-Waters/weather_dashboard"
+          projectLink="https://note-taker-emtn.onrender.com/"
+          githubLink="https://github.com/Laura-Waters/note_taker"
         />
         </div>
       </div>
