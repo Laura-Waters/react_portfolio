@@ -143,6 +143,9 @@ p {
     margin-right: 40px;
 }
 
+.logo {
+    max-width: 35px;
+}
 
 #headshot {
     max-height: 250px;
@@ -151,15 +154,28 @@ p {
 }
 /*---------------------------------------------------------------------------------------------------------------------*/
 
+.portfolio-container {
+    display: flex;
+}
+
 
 .card {
     border-style: solid;
     border-width: 1px;
     margin: 10px;
-    height: 150px;
-    flex: 1 0 300px;
+    height: 150px; 
     cursor: pointer;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
 
 .card:hover {
    border-width: 8px;

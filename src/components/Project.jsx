@@ -1,14 +1,23 @@
-function Project() {
-    return (
-        <div className="card" style={{width: 350}}>
-          <img className="card-img-top" src="../images/gradient.jpg" alt="Card image cap"/>
-          <div className="card-img-overlay">
-            <h3 className="card-title">Sip, Sip, Hooray</h3>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text">Last updated 3 mins ago</p>
-        </div>
-        </div>
+import PropTypes from 'prop-types';
 
+Project.propTypes = {
+    title: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    projectLink: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired
+};
+
+function Project({ title, imageSrc, projectLink, githubLink }) {
+    return (
+        <div>
+            <a href={projectLink}><div className="card" style={{width: 350}}>
+            <img className="card-img-top" src={imageSrc} alt="Card image cap"/>
+            <div className="card-img-overlay card-container">
+                <h2 className="card-title" style={{color: 'var(--secondary)'}}>{title}</h2>
+                <a href={githubLink}><img className='logo' src="../images/githublogo.png"/></a>
+            </div>
+            </div></a>
+        </div>
     );
 }
 
