@@ -1,8 +1,29 @@
-# React + Vite
+# React Portfolio 
+https://github.com/Laura-Waters/react_portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This React application serves as a personal portfolio where potential employers may view more info about me and my skillsets, as well as view samples of my work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+N/A
+
+## Usage
+
+To use the application, you may use the deployment link below. Click on items in the Navigation to switch the page content. You may also utilize the links in the footer to redirect to my GitHub, LinkedIn, or Medium profiles. 
+
+## Credits
+
+N/A 
+
+## License
+
+Please refer to the LICENSE in the repo.
+
+## In-Use
+
+https://glistening-cranachan-d9edbc.netlify.app/
+![reactportfolio](https://github.com/user-attachments/assets/67c44228-bf16-4110-b9a6-e7b22bf6d17a)
+
+
